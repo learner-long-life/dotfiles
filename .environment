@@ -1,0 +1,75 @@
+#add 6.270
+add sipb
+add windowmanagers
+add java_v1.4.2_01
+add jikes
+add gnu
+#add 6.035
+#add 6.033
+#add 6.863
+add 6.170
+add eclipse-sdk
+add python
+add ieee
+add graphics
+add mozilla
+add firebird
+add outland
+add qt
+add kde
+add im
+add apache-ssl
+add gnumeric
+add consult
+add abiword
+add acro
+add octave
+
+#if [ -e ~/.bash_profile ]; then
+#  source ~/.bash_profile
+#fi
+
+set skip_dash
+set skip_xlogout
+set skip_initial_xterm
+
+#setenv WINDOW_MANAGER ratpoison
+setenv WINDOW_MANAGER fluxbox
+setenv TEXINPUTS .:/afs/athena/contrib/consult/lib/tex/macros:
+#setenv LD_LIBRARY_PATH /usr/athena/lib:/mit/ieee/6.370/lib
+
+### The following lines automatically added by /mit/save/bin/save
+setenv LPROPT "-h -z" ### Prevents header page; enables zephyring.
+add save ### Makes duplex printing commands available to you.
+### For help, type setup save again.
+### The above lines automatically added by /mit/save/bin/save
+
+### Old 6.170 additions
+
+#setenv JAVA_HOME /mit/java_v1.4.2_01
+#setenv ANT_HOME /mit/ppham/ant
+#setenv RTJAR ${JAVA_HOME}/jre/lib/rt.jar
+#setenv CLASSPATHLIB `perl -e 'print join(":", @ARGV);' /mit/6.170/lib/*.jar`
+#setenv CLASSPATH /mit/${USER}/6.170:${CLASSPATHLIB}
+#setenv CVS_RSH ssh
+
+### End Old 6.170 additions
+
+if (`uname` == "Linux") then
+	xmodmap ~/.xmodmap
+endif
+
+### Begin 6.170 additions
+
+add -f java_v1.4.2_03
+setenv RTJAR /mit/java_v1.4.2_03/jre/lib/rt.jar
+setenv CLASSPATHLIB `perl -e 'print join(":", @ARGV);' /mit/6.170/lib/*.jar`
+setenv CLASSPATH .:${CLASSPATHLIB}
+setenv CVS_RSH ssh
+setenv CVSROOT /mit/6.170/students/${USER}
+setenv PS_NUM ps1
+
+### End 6.170 additions
+
+setenv JIKESPATH ${RTJAR}:${CLASSPATH}
+

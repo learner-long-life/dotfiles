@@ -1,0 +1,117 @@
+SESSION STARTED at:  2005-08-28 15:01:40 EDT -0400
+   Program Version:  NcFTP 3.1.7/120 Jan 07 2004, 01:50 AM
+   Library Version:  LibNcFTP 3.1.7 (January 6, 2004)
+        Process ID:  2764
+          Platform:  cygwin_nt-5.0
+          Hostname:  neovictorian.mit.edu  (rc=5)
+          Terminal:  xterm
+15:01:40  Fw: firewall.uibk.ac.at  Type: 0  User: ppham  Pass: ********  Port: 21
+15:01:40  FwExceptions: .uibk.ac.at,localhost,localdomain
+15:01:40  Resolving upload.sf.net...
+15:01:41  Connecting to 66.35.250.221...
+15:01:41  LibNcFTP 3.1.7 (January 6, 2004) compiled for cygwin_nt-5.0
+15:01:41  Uname: CYGWIN_NT-5.1|neovictorian|1.5.18(0.132/4/2)|2005-07-02 20:30|i686
+15:01:42  Logging in...
+15:01:42  220: ********************************************************************
+15:01:42        SourceForge.net FTP server - San Jose (osdn.dl.sourceforge.net)
+15:01:42        Additional access is at http://osdn.dl.sourceforge.net/pub/mirrors/
+15:01:42        Mirrors, try 'rsync osdn.dl.sourceforge.net::'
+15:01:42        
+15:01:42        Got a fat pipe and something to prove? Host a SourceForge download
+15:01:42          server! Email ftpadmin@sourceforge.net for opportunities.
+15:01:42        
+15:01:42        On This Site:
+15:01:42        /pub/sourceforge/          SourceForge.net Project File Archive
+15:01:42        *********************************************************************
+15:01:42       
+15:01:42  Connected to 66.35.250.221.
+15:01:42  Cmd: USER anonymous
+15:01:42  331: Please specify the password.
+15:01:42  Cmd: PASS NcFTP@
+15:01:42  Logging in...
+15:01:42  230: Login successful.
+15:01:42  Cmd: PWD
+15:01:42  257: "/"
+15:01:42  Logged in to 66.35.250.221 as anonymous.
+15:01:42  Cmd: FEAT
+15:01:43  211: Features:
+15:01:43        EPRT
+15:01:43        EPSV
+15:01:43        MDTM
+15:01:43        PASV
+15:01:43        REST STREAM
+15:01:43        SIZE
+15:01:43        TVFS
+15:01:43       End
+15:01:43  Cmd: HELP SITE
+15:01:44  214: The following commands are recognized.
+15:01:44        ABOR ACCT ALLO APPE CDUP CWD  DELE EPRT EPSV FEAT HELP LIST MDTM MKD
+15:01:44        MODE NLST NOOP OPTS PASS PASV PORT PWD  QUIT REIN REST RETR RMD  RNFR
+15:01:44        RNTO SITE SIZE SMNT STAT STOR STOU STRU SYST TYPE USER XCUP XCWD XMKD
+15:01:44        XPWD XRMD
+15:01:44       Help OK.
+15:01:44  Logged in to upload.sf.net.
+15:01:44  Cmd: CLNT NcFTP 3.1.7 cygwin_nt-5.0
+15:01:44  500: Unknown command.
+15:01:48  > binary
+
+15:01:48  Cmd: TYPE I
+15:01:48  200: Switching to Binary mode.
+15:02:03  > cd /incoming
+
+15:02:03  Cmd: CWD /incoming
+15:02:03  250: Directory successfully changed.
+15:02:03  > ls
+
+15:02:03  Cmd: TYPE A
+15:02:04  200: Switching to ASCII mode.
+15:02:04  Cmd: PASV
+15:02:04  227: Entering Passive Mode (66,35,250,221,231,95)
+15:02:04  Cmd: LIST
+15:02:04  150: Here comes the directory listing.
+15:02:04  226: Transfer done (but failed to open directory).
+15:02:04  Remote listing contents {
+15:02:04  }
+15:02:24  > mput sequencer-python-src-0.16.tar.bz2*
+
+15:02:28    Lglob [sequencer-python-src-0.16.tar.bz2]
+15:02:28    Lglob [sequencer-python-src-0.16.tar.bz2.md5]
+15:02:28  Cmd: TYPE I
+15:02:28  200: Switching to Binary mode.
+15:02:28  Cmd: MLST sequencer-python-src-0.16.tar.bz2
+15:02:28  500: Unknown command.
+15:02:28  Cmd: SIZE sequencer-python-src-0.16.tar.bz2
+15:02:28  550: Could not get file size.
+15:02:28  Cmd: PASV
+15:02:29  227: Entering Passive Mode (66,35,250,221,233,107)
+15:02:29  Cmd: STOR sequencer-python-src-0.16.tar.bz2
+15:02:29  150: Ok to send data.
+15:02:31  226: File receive OK.
+15:02:31  Cmd: SITE UTIME sequencer-python-src-0.16.tar.bz2 20050828190122 20050828035552 20050828190104 UTC
+15:02:31  550: Permission denied.
+15:02:31  Could not preserve times for sequencer-python-src-0.16.tar.bz2: UTIME failed.
+15:02:31  Cmd: SIZE sequencer-python-src-0.16.tar.bz2.md5
+15:02:32  550: Could not get file size.
+15:02:32  Cmd: PASV
+15:02:32  227: Entering Passive Mode (66,35,250,221,233,195)
+15:02:32  Cmd: STOR sequencer-python-src-0.16.tar.bz2.md5
+15:02:32  150: Ok to send data.
+15:02:33  226: File receive OK.
+15:02:33  Cmd: SITE UTIME sequencer-python-src-0.16.tar.bz2.md5 20050828190122 20050828190122 20050828190122 UTC
+15:02:33  550: Permission denied.
+15:02:33  Could not preserve times for sequencer-python-src-0.16.tar.bz2.md5: UTIME failed.
+15:03:13  > mput sequencer-python-0.06-0.16.diff.bz2 
+
+15:03:13  Cmd: SIZE sequencer-python-0.06-0.16.diff.bz2
+15:03:13  550: Could not get file size.
+15:03:13  Cmd: PASV
+15:03:13  227: Entering Passive Mode (66,35,250,221,232,145)
+15:03:13  Cmd: STOR sequencer-python-0.06-0.16.diff.bz2
+15:03:14  150: Ok to send data.
+15:03:15  226: File receive OK.
+15:03:15  Cmd: SITE UTIME sequencer-python-0.06-0.16.diff.bz2 20050828035809 20050828035801 20050828035925 UTC
+15:03:15  550: Permission denied.
+15:03:15  Could not preserve times for sequencer-python-0.06-0.16.diff.bz2: UTIME failed.
+15:26:43  Cmd: QUIT
+15:26:44  421: Timeout.
+SESSION ENDED at:    Sun Aug 28 15:26:44 2005

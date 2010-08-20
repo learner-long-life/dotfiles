@@ -1,0 +1,12 @@
+#!/usr/bin/perl
+ 
+srand;
+open(ZSIGS, "$ENV{'HOME'}/.zsigs")|| die("No ~/.zsigs file");
+$ops = join(' ', @ARGV);
+     while(<ZSIGS>){
+        chop;
+        $sig[$i++]=$_;
+    }
+    $x = rand($i-1);
+    print("Zsig: $sig[$x]\n");
+    exec("zwrite", "-s", $sig[$x], split(' ',$ops));

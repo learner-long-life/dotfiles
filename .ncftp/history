@@ -1,0 +1,98 @@
+mput sequencer-firmware-0.03.tar.bz2*
+cd /incoming
+mput sequencer-firmware-0.03.tar.bz2*
+quit
+cd /incoming
+binary
+ls
+mput sequencer-firmware-src-0.03.tar.bz2*
+quit
+binary
+cd /incoming
+mput chain-parts-list-b.*
+mput chain_b.zip*
+mput chain-ad9* .
+quit
+cd /incoming
+binary
+mput chain_b.zip* chain-assembly-b.zip*
+quit
+cd /incoming
+binary
+mput ad9744-chain-assembly-b.zip* ad9858-chain-assembly-b.zip*
+quit
+cd /incoming
+mput chain-ad9744-assembly-b.zip* chain-ad9858-assembly-b.zip*
+quit
+cd /incoming
+ls
+binary
+mput chain_c.zip* chain-ad9744-assembly-c.zip* chain-ad9858-assembly-c.zip*
+mput chain-ad9858-fab-c.zip* chain-ad9744-fab-c.zip*
+quit
+cd /incoming
+mput chain-parts-list-c.*
+exit
+cd /incoming
+mput chain-ad9744-assembly-b.zip* chain-ad9858-assembly-b.zip*
+quit
+cd /incoming
+binary
+mput chain-ad9744-assembly-b.zip* chain-ad9744-assembly-c.zip* chain-ad9858-assembly-b.zip* chain-ad9858-assembly-c.zip*
+quit
+cd /incoming
+mput apparatus-parts-list-b.html apparatus-parts-list-b.sxc apparatus-assembly-b.zip* apparatus_b.zip*
+quit
+cd /incoming
+open upload.sf.net
+cd /incoming
+mput apparatus-parts-list-c.*
+mput apparatus_c.zip*
+quit
+cd /incoming
+binary
+mput sequencer-firmware-0.05.tar.bz2*
+mput sequencer-firmware-src-0.05.tar.bz2*
+mput *.diff.bz2
+quit
+cd /incoming
+binary
+mput sequencer-python-v0_01-v0_06.diff.bz2*
+quit
+cd /incoming
+binary
+mput apparatus-assembly-c.zip*
+binary
+cd /incoming
+mput sequencer-firmware-0.10.tar.bz2*
+mput sequencer-firmware-src-0.10.tar.bz2*
+quit
+binary
+cd /incoming
+mput sequencer-firmware-logs-0.0*.tar.bz2
+quit
+binary
+cd /incoming
+ls
+mput sequencer-firmware-0.15.tar.bz2* sequencer-firmware-src-0.15.tar.bz2*
+mput v0_05-v0_10.diff.bz2 
+quit
+binary
+cd /incoming
+mput sequencer-firmware-diff-0.10-0.15.diff.bz2 
+quit
+binary
+cd /incoming
+mput sequencer-firmware-diff-0.05-0.10.bz2 
+quit
+cd /incoming
+binary
+mput sequencer-firmware-0.05-0.10.diff.bz2 sequencer-firmware-0.10-0.15.diff.bz2 
+cd /incoming
+binary
+quit
+binary
+cd /incoming
+ls
+mput sequencer-python-src-0.16.tar.bz2*
+mput sequencer-python-0.06-0.16.diff.bz2 

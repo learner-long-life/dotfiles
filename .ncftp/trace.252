@@ -1,0 +1,78 @@
+SESSION STARTED at:  2005-08-17 09:47:16 WEDT +0200
+   Program Version:  NcFTP 3.1.7/120 Jan 07 2004, 01:50 AM
+   Library Version:  LibNcFTP 3.1.7 (January 6, 2004)
+        Process ID:  252
+          Platform:  cygwin_nt-5.0
+          Hostname:    (rc=-2)
+          Terminal:  xterm
+09:47:16  Fw: firewall.uibk.ac.at  Type: 0  User: ppham  Pass: ********  Port: 21
+09:47:16  FwExceptions: .uibk.ac.at,localhost,localdomain
+09:47:16  NOTE:  Your domain name could not be detected.
+09:47:16  Resolving upload.sf.net...
+09:47:17  Connecting to 66.35.250.221...
+09:47:17  LibNcFTP 3.1.7 (January 6, 2004) compiled for cygwin_nt-5.0
+09:47:17  Uname: CYGWIN_NT-5.1|neovictorian|1.5.18(0.132/4/2)|2005-07-02 20:30|i686
+09:47:18  Logging in...
+09:47:18  220: ********************************************************************
+09:47:18        SourceForge.net FTP server - San Jose (osdn.dl.sourceforge.net)
+09:47:18        Additional access is at http://osdn.dl.sourceforge.net/pub/mirrors/
+09:47:18        Mirrors, try 'rsync osdn.dl.sourceforge.net::'
+09:47:18        
+09:47:18        Got a fat pipe and something to prove? Host a SourceForge download
+09:47:18          server! Email ftpadmin@sourceforge.net for opportunities.
+09:47:18        
+09:47:18        On This Site:
+09:47:18        /pub/sourceforge/          SourceForge.net Project File Archive
+09:47:18        *********************************************************************
+09:47:18       
+09:47:18  Connected to 66.35.250.221.
+09:47:18  Cmd: USER anonymous
+09:47:18  331: Please specify the password.
+09:47:18  Cmd: PASS NcFTP@
+09:47:19  Logging in...
+09:47:19  230: Login successful.
+09:47:19  Cmd: PWD
+09:47:19  257: "/"
+09:47:19  Logged in to 66.35.250.221 as anonymous.
+09:47:19  Cmd: FEAT
+09:47:19  211: Features:
+09:47:19        EPRT
+09:47:19        EPSV
+09:47:19        MDTM
+09:47:19        PASV
+09:47:19        REST STREAM
+09:47:19        SIZE
+09:47:19        TVFS
+09:47:19       End
+09:47:19  Cmd: HELP SITE
+09:47:20  214: The following commands are recognized.
+09:47:20        ABOR ACCT ALLO APPE CDUP CWD  DELE EPRT EPSV FEAT HELP LIST MDTM MKD
+09:47:20        MODE NLST NOOP OPTS PASS PASV PORT PWD  QUIT REIN REST RETR RMD  RNFR
+09:47:20        RNTO SITE SIZE SMNT STAT STOR STOU STRU SYST TYPE USER XCUP XCWD XMKD
+09:47:20        XPWD XRMD
+09:47:20       Help OK.
+09:47:20  Logged in to upload.sf.net.
+09:47:20  Cmd: CLNT NcFTP 3.1.7 cygwin_nt-5.0
+09:47:20  500: Unknown command.
+09:47:21  > cd /incoming
+
+09:47:21  Cmd: CWD /incoming
+09:47:21  250: Directory successfully changed.
+09:47:22  > binary
+
+09:47:22  Cmd: TYPE I
+09:47:22  200: Switching to Binary mode.
+09:47:31  > mput pulse-sequencer-0.06.win32.exe*
+
+09:47:31    Lglob [pulse-sequencer-0.06.win32.exe]
+09:47:31    Lglob [pulse-sequencer-0.06.win32.exe.md5]
+09:47:31  Cmd: MLST pulse-sequencer-0.06.win32.exe
+09:47:32  500: Unknown command.
+09:47:32  Cmd: SIZE pulse-sequencer-0.06.win32.exe
+09:47:32  550: Could not get file size.
+09:47:32  Cmd: PASV
+09:47:32  227: Entering Passive Mode (66,35,250,221,232,132)
+09:47:32  Cmd: STOR pulse-sequencer-0.06.win32.exe
+09:47:33  150: Ok to send data.
+09:47:34  226: File receive OK.
+09:47:34  Cmd: SITE UTIME pulse-sequencer-0.06.win32.exe 20050817074638 20050817074339 20050817074339 UTC

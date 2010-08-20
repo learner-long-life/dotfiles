@@ -1,0 +1,27 @@
+Mod1 Tab :NextWindow
+Mod1 Shift Tab :PrevWindow
+Mod1 1 :Workspace 1
+Mod1 2 :Workspace 2
+Mod1 3 :Workspace 3
+Mod1 4 :Workspace 4
+Mod1 5 :Workspace 5
+Mod1 6 :Workspace 6
+Mod1 7 :Workspace 7
+Mod1 8 :Workspace 8
+Mod1 9 :Workspace 9
+Mod1 0 :Workspace 10
+Control Mod1 R: Reconfigure
+None F4 :Close
+None F7 :MaximizeWindow
+Mod1 x :ExecCommand xmms
+Mod1 Escape :ExecCommand aterm
+Mod1 f :ExecCommand firefox
+Mod1 t :ExecCommand thunderbird
+Mod1 l :ExecCommand xlock
+Mod1 e :ExecCommand emacs
+Mod1 i :ExecCommand gaim
+Mod1 r :ExecCommand evince
+Mod1 s :ExecCommand /uns/local/sunbird-0.3-alpha1/sunbird
+Control Right :NextWorkspace
+Control Left :PrevWorkspace
+Mod1 Down: Quit

@@ -1,0 +1,31 @@
+------------------------------------------
+Log File: /homes/gws/ppham/.fluxbox/log
+Fluxbox version: 0.9.14
+Compiled: Oct 12 2005 12:39:49
+Compiler: GCC
+Compiler version: 4.0.1 20050727 (Red Hat 4.0.1-5)
+
+Defaults:
+    menu: /uns/share/fluxbox/menu
+   style: /uns/share/fluxbox/styles/Clean
+    keys: /uns/share/fluxbox/keys
+    init: /uns/share/fluxbox/init
+
+Compiled options (- => disabled): 
+-DEBUG
+SLIT
+TOOLBAR
+XPM
+-IMLIB2
+GNOME
+KDE
+EWMH
+REMEMBER
+SHAPE
+-XFT
+XMB
+-XINERAMA
+RENDER
+
+------------------------------------------
+apps file failure

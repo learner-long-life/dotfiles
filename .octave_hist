@@ -1,0 +1,21 @@
+ls
+x = [1 2 3 4];
+y = [4 3 2 1];
+plot(x,y)
+quit
+octave_config_info("dld")
+exit
+octave_config_info("dld")
+exit
+pwd
+qcnet_oct([1 2 3], 0)
+quit
+pi
+sin(pi)
+sin(pi/2)
+asin(1)
+atan(1.622/2.845)
+ans * 2 / pi
+0.51816 * 180 / pi
+90 - ans
+180 - ans

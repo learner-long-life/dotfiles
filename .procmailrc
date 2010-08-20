@@ -1,0 +1,229 @@
+MAILDIR=/home/ppham/mail
+
+:0:
+* ^TOmono-devel
+mono-devel
+
+:0:
+* ^TOscribus
+scribus
+
+:0:
+* ^TOsenior-haus
+senior-house
+
+:0:
+* ^TOsenior-house
+senior-house
+
+:0:
+* ^TOreuse
+reuse
+
+:0:
+* ^X-BeenThere: bastula@colony.mit.edu
+bip
+
+:0:
+* ^X-BeenThere: project22k@tep.org
+project22k
+
+:0:
+* ^TOmit-ers
+miters
+
+#:0:
+#* ^X-BeenThere: 6.863@colony.mit.edu
+#6.863
+
+:0:
+* ^TOroot@colony.mit.edu
+root
+
+:0:
+* ^TOfire
+prometheus
+
+:0:
+* ^X-BeenThere: vocal@vovida.org
+vocal
+
+:0:
+* ^X-BeenThere: sip@vovida.org
+sip
+
+:0:
+* ^TOeitball
+billiards
+
+:0:
+* ^TOiltfp
+academy
+
+:0:
+* ^TOacademy
+academy
+
+:0:
+* ^TOanime
+anime
+
+:0:
+* ^TOode@q12.org
+ode
+
+:0:
+* ^X-BeenThere: sheep@tep.org
+sheep
+
+:0:
+* ^X-BeenThere: tep-social@tep.org
+tep-social
+
+:0:
+* ^TOmainlist
+mainlist
+
+:0:
+* ^TOcourse19
+course19
+
+:0:
+* ^TOec-discuss@mit.edu
+ec-discuss
+
+:0:
+* ^TOec@mit.edu
+ec-discuss
+
+:0:
+* ^X-BeenThere: rush@tep.org
+rush
+
+:0:
+* ^TOgeekgadgets
+geekgadgets
+
+:0:
+* ^TOjobslist
+jobslist
+
+:0:
+* ^TOmit-talk
+mit-talk
+
+:0:
+* ^TOglasselevator
+glass-elevator
+
+:0:
+* ^TOworld@.*worldforge.org
+wf-world
+
+:0:
+* ^TOgeneral@.*worldforge.org
+wf-general
+
+:0:
+* ^TOmedia@.*worldforge.org
+wf-media
+
+:0:
+* ^TOcpptraining@.*worldforge.org
+wf-cpptraining
+
+:0:
+* ^TOserver@.*worldforge.org
+wf-server
+
+:0:
+* ^TOclient@.*worldforge.org
+wf-client
+
+:0:
+* ^TOwarforge
+wf-warforge
+
+:0:
+* ^TOplot@.*worldforge.org
+wf-plot
+
+:0:
+* ^TOscripting@.*worldforge.org
+wf-scripting
+
+:0:
+* ^TOrules@.*worldforge.org
+wf-rules
+
+:0:
+* ^TOprotocols@.*worldforge.org
+wf-protocols
+
+:0:
+* ^X-BeenThere: macinteps@tep.org
+macinteps
+
+:0:
+* ^X-BeenThere: eit@tep.org
+eit
+
+:0:
+* ^X-BeenThere: crock@tep.org
+crock
+
+:0:
+* ^X-BeenThere: drul@tep.org
+drul
+
+:0:
+* ^X-BeenThere: tepf@tep.org
+tepf
+
+:0:
+* ^X-BeenThere: tepd@tep.org
+tepd
+
+:0:
+* ^TObrambleberry
+brambleberry
+
+:0:
+* ^TOopenbeos
+openbeos
+
+:0:
+* ^TOopentracker
+opentracker
+
+:0:
+* ^TObedrivertalk
+bedrivertalk
+
+:0:
+* ^TObedevtalk
+bedevtalk
+
+:0:
+* ^Subject:.*betalk
+betalk
+
+:0:
+* ^TObeusertalk
+beusertalk
+
+:0:
+* ^TOieee
+ieee
+
+:0:
+* ^TO6.370@mit.edu
+6.370
+
+:0:
+* ^X-BeenThere: spin-doctors@tep.org
+spin-doctors
+
+:0:
+* ^From:.*mstring
+maggie
