@@ -1,0 +1,2 @@
+alias epoch="date +%s"
+export EDITOR=vim
