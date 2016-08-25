@@ -85,3 +85,4 @@ source $ZSH/oh-my-zsh.sh
 
 # Shell-independent aliases
 source ~/.shrc
+source ~/.shrc.etsy
