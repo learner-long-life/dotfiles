@@ -1,2 +1,7 @@
 alias epoch="date +%s"
+
+function date2epoch() {
+  date -d "$1" +%s
+}
+
 export EDITOR=vim
