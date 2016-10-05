@@ -5,3 +5,8 @@ function date2epoch() {
 }
 
 export EDITOR=vim
+
+alias awslb='ssh -i ~/Documents/AWS/ppham-local-box-1.pem ubuntu@aws.local-box.org'
+alias testlb='ssh -i ~/Documents/AWS/geth-testnet.pem ubuntu@testnet.local-box.org'
+alias gethlb='ssh -i ~/Documents/AWS/ppham-local-box-1.pem ubuntu@geth.local-box.org'
+alias loft='ssh cryptogoth@hierophant'
