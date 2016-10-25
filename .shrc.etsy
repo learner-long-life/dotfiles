@@ -1,2 +1,0 @@
-# On deploy host:
-# sudo -u etsy dsh -c -m $(search_dsh_machinenames some_cluster) -- 'sudo -u jetty /search/dist/bin/some_command' 
