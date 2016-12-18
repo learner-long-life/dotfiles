@@ -66,3 +66,4 @@ Plugin 'derekwyatt/vim-scala'
 call vundle#end()            " required
 
 syntax on
+set clipboard=unnamedplus
