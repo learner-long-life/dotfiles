@@ -1,3 +1,4 @@
+
 alias epoch="date +%s"
 
 function date2epoch() {
@@ -10,3 +11,10 @@ alias awslb='ssh -i ~/Documents/AWS/ppham-local-box-1.pem ubuntu@aws.local-box.o
 alias testlb='ssh -i ~/Documents/AWS/geth-testnet.pem ubuntu@testnet.local-box.org'
 alias gethlb='ssh -i ~/Documents/AWS/ppham-local-box-1.pem ubuntu@geth.local-box.org'
 alias loft='ssh cryptogoth@hierophant'
+
+export NVM_DIR="/Users/ppham/.nvm"
+
+# Loading nvm is slow, so we only want to do it in shells where we are doing node development.
+function loadnvm() {
+  [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+}
