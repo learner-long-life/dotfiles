@@ -5,7 +5,7 @@
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="af-magic"
+ZSH_THEME="agnoster"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -53,7 +53,7 @@ plugins=(git)
 
 # User configuration
 
-  export PATH="/usr/lib64/qt-3.3/bin:/opt/ant/bin:/usr/lib/hadoop/bin:/usr/local/bin:/usr/bin:/home/ppham/bin:/usr/local/sbin:/usr/sbin:/usr/java/jdk7u60/bin:/home/ppham/development/BigData/script:/opt/sbt/bin:/home/ppham/development/bin:/sbin:/usr/sbin:/home/ppham/development/BigData/lib/hadoop/bin:/opt/vertica/bin:/usr/etsy/bin:/search/dist/bin:/home/ppham/development/go/bin"
+export PATH="/usr/lib64/qt-3.3/bin:/opt/ant/bin:/usr/lib/hadoop/bin:/usr/local/bin:/usr/bin:~/bin:/usr/local/sbin:/usr/sbin:/usr/java/jdk7u60/bin:/home/ppham/development/BigData/script:/opt/sbt/bin:/home/ppham/development/bin:/sbin:/usr/sbin:/home/ppham/development/BigData/lib/hadoop/bin:/opt/vertica/bin:/usr/etsy/bin:/search/dist/bin:/home/ppham/development/go/bin:/opt/chef/bin:/opt/chef/embedded/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
@@ -82,6 +82,12 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# Shell-independent aliases
+source ~/.shrc
+source ~/.shrc.etsy
+
+export GOPATH=~/src/golang/work
 
 # Shell-independent aliases
 source ~/.shrc
