@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/home/ppham/development/Search/apps/tire/scripts'
+let g:netrw_dirhist_2='/home/ppham/development/chef/cookbooks/installerz'
+let g:netrw_dirhist_3='/home/ppham/development/Git-Hooks/PreCommit'
+let g:netrw_dirhist_4='/home/ppham/development/Search/apps'
+let g:netrw_dirhist_5='/home/ppham/development/Search/apps/elastic1'
+let g:netrw_dirhist_6='/home/ppham/development/Search/apps/elastic1/scripts'

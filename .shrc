@@ -15,3 +15,5 @@ alias ethlb='ssh -i ~/Documents/AWS/geth-testnet.pem ubuntu@bigeth.local-box.org
 alias zclb='ssh -i ~/Documents/AWS/zcashd-gpu.pem ubuntu@35.162.27.54'
 
 alias loadnvm=". /usr/local/opt/nvm/nvm.sh"
+
+export PYTHONPATH="/usr/local/lib/python3.6/site-packages"
