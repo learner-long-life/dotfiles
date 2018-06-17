@@ -10,12 +10,27 @@ alias awslb='ssh -i ~/Documents/AWS/ppham-local-box-1.pem ubuntu@aws.local-box.o
 alias testlb='ssh -i ~/Documents/AWS/geth-testnet.pem ubuntu@testnet.local-box.org'
 alias gethlb='ssh -i ~/Documents/AWS/ppham-local-box-1.pem ubuntu@geth.local-box.org'
 alias paritylb='ssh -i ~/Documents/AWS/geth-testnet.pem ubuntu@parity.local-box.org'
-alias loft='ssh cryptogoth@hierophant'
 alias ethlb='ssh -i ~/Documents/AWS/geth-testnet.pem ubuntu@bigeth.local-box.org'
 alias zclb='ssh -i ~/Documents/AWS/zcashd-gpu.pem ubuntu@35.162.27.54'
+alias loft='ssh cryptogoth@hierophant'
+
+export NVM_DIR="/Users/ppham/.nvm"
+
+# Loading nvm is slow, so we only want to do it in shells where we are doing node development.
+function loadnvm() {
+  [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+}
+
+# Install nvm, so we don't have to keep consulting
+# https://github.com/creationix/nvm#install-script
+# Although by all means check in for later versions and fixes.
+function installnvm() {
+  curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh | bash
+}
 
 alias loadnvm=". /usr/local/opt/nvm/nvm.sh && nvm use --delete-prefix v9.7.1"
 
 #Uebersicht widgets
 alias usw='cd ~/Library/Application\ Support/Übersicht/widgets'
 export PATH=$PATH:$HOME/.cabal/bin
+export PYTHONPATH="/usr/local/lib/python3.6/site-packages"
