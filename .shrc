@@ -14,4 +14,8 @@ alias loft='ssh cryptogoth@hierophant'
 alias ethlb='ssh -i ~/Documents/AWS/geth-testnet.pem ubuntu@bigeth.local-box.org'
 alias zclb='ssh -i ~/Documents/AWS/zcashd-gpu.pem ubuntu@35.162.27.54'
 
-alias loadnvm=". /usr/local/opt/nvm/nvm.sh"
+alias loadnvm=". /usr/local/opt/nvm/nvm.sh && nvm use --delete-prefix v9.7.1"
+
+#Uebersicht widgets
+alias usw='cd ~/Library/Application\ Support/Übersicht/widgets'
+export PATH=$PATH:$HOME/.cabal/bin
